@@ -61,7 +61,7 @@ nav ul li a {
     bottom: 20px;
     left: 20px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: for better readability */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px;
 }
 
@@ -79,13 +79,14 @@ nav ul li a {
 .text-container {
     display: flex;
     flex-direction: row;
-    gap: 20px; /* Adds spacing between the h3 elements */
+    gap: 20px; 
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px; /* Adds spacing between the text and cards */
-    background-color: rgb(195, 189, 189);
+    margin-bottom: 20px; 
+    background-color: rgb(172, 164, 164);
     padding: 10px;
+    
 }
 
 .text-container h3 {
@@ -102,20 +103,20 @@ nav ul li a {
     font-size: 2rem;
     margin-bottom: 25px;
     text-align: left;
-    margin-left: 20px; /* Adjusts the position */
+    margin-left: 20px; 
 }
 
 .cards {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    flex-wrap: wrap; /* Ensures cards wrap on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .card {
     text-align: center;
     width: 30%;
-    margin-bottom: 20px; /* Adds spacing between rows */
+    margin-bottom: 20px;
 }
 
 .card img {
