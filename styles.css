@@ -89,7 +89,7 @@ nav ul li a {
     
 }
 
-.text-container h3 {
+.text-container h4 {
     margin: 20px 10px;
     text-align: center;
     flex: 1;
@@ -147,7 +147,7 @@ nav ul li a {
     align-self: flex-end;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1200px) {
     .card {
         width: 45%;
